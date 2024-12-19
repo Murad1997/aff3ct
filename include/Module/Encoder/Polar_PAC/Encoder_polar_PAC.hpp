@@ -26,7 +26,7 @@ public:
 	Encoder_polar_PAC(const int& K, const int& N, const std::vector<bool>& frozen_bits);
 	virtual ~Encoder_polar_PAC() = default;
 
-	virtual Encoder_polar<B>* clone() const;
+	virtual Encoder_polar_PAC<B>* clone() const;
 
 	void light_encode(B *bits);
 
