@@ -11,7 +11,7 @@
 #include <cli.hpp>
 
 #include "Tools/Factory/Header.hpp"
-#include "Module/Encoder/Polar/Encoder_polar.hpp"
+#include "Module/Encoder/Polar_PAC/Encoder_polar_PAC.hpp"
 #include "Factory/Module/Encoder/Encoder.hpp"
 
 namespace aff3ct

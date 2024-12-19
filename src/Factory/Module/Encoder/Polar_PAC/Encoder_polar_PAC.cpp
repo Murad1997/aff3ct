@@ -14,7 +14,7 @@ Encoder_polar_PAC
 ::Encoder_polar_PAC(const std::string &prefix)
 : Encoder(Encoder_polar_name, prefix)
 {
-	this->type = "POLAR";
+	this->type = "POLAR_PAC";
 }
 
 Encoder_polar_PAC* Encoder_polar_PAC
